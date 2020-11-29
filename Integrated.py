@@ -39,6 +39,13 @@ def Data2Df(categoryList):
                 'date',
                 'category']]
     
+    # change column name to better organize data
+    df = df.rename(columns={'key_resp_2.keys': 'score', 'key_resp_2.rt': 'time'})
+    
+    # Disable warning due to potential 'chained' assignments in Dataframe
+    pd.options.mode.chained_assignment = None 
+    df['score'] = df['score'].replace(['z', 'm'],[1, 0])
+    
     return df
 
 
