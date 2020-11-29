@@ -16,6 +16,7 @@ In order to capture the individual differences in these "tastes", we set up a vi
 2. Data Analysis
 The raw data comes from the test are .csv files. The data are read and cleaned with a Jupyter notebook code. In order to demo the current progress, please click into the binder link below with appropriate environmental configurations:
 https://mybinder.org/v2/gh/Loni0111/preference_study/d8752bf67f18fe6470a0042a972b6824745aa192
+
 please run the cells in the jupyter notebook step by step to get the correlation between the objects and variables, such as the image layouts, the image categories, etc.
 
 **If you want to modify the code, please clone the whole repository to your local machine and push it onto the github repository with correct commit comments.**
