@@ -22,6 +22,7 @@ please run the cells in the jupyter notebook step by step to get the correlation
 **If you want to modify the code, please clone the whole repository to your local machine and push it onto the github repository with correct commit comments.**
 
 3. Deep Learning Model
+Please find the "Deep Learning Model.ipynb" from the link above, and follow the steps inside to run the deep learning model
 
   </p>
 </p>
